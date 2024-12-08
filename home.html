@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NST-SDC</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper.js CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom Carousel Styles */
+        .swiper-button-prev, .swiper-button-next {
+            color: #9333ea; /* Purple arrows */
+        }
+        .swiper-pagination-bullet {
+            background-color: #9333ea;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-violet-700 to-indigo-500 text-white font-sans">
+
+<!-- Navigation Bar -->
+<header class="fixed top-0 w-full bg-gray-900 bg-opacity-90 shadow-md z-50">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <!-- Logo -->
+        <div class="text-3xl font-extrabold tracking-wider">
+            NST-SDC
+        </div>
+        <!-- Navigation Links -->
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="hover:text-purple-400 transition">Home</a>
+            <a href="#about" class="hover:text-purple-400 transition">About</a>
+            <a href="#events" class="hover:text-purple-400 transition">Events</a>
+            <a href="#gallery" class="hover:text-purple-400 transition">Gallery</a>
+            <a href="#contact" class="hover:text-purple-400 transition">Contact</a>
+        </div>
+        
+    </nav>
+</header>
+
+
+<!-- Events Section -->
+<section id="events" class="mt-16">
+    <h3 class="ml-8 text-3xl ">Upcoming Events</h3>
+    <div class="swiper my-8 w-11/12 lg:w-4/5 mx-auto" style="height: 500px;">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide flex items-center justify-center">
+                <div class="p-6 bg-white text-black rounded-lg shadow-lg w-full h-full">
+                    <img src="/photos/event1.jpeg" alt="Event 1" class="w-full h-72 object-cover rounded-md">
+                    <p class="text-center mt-4 text-xl font-semibold">• Event 1: Lorem Ipsum</p>
+                    <p class="text-center text-gray-600 mt-2">• Date: 01.01.2024</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide flex items-center justify-center">
+                <div class="p-6 bg-white text-black rounded-lg shadow-lg w-full h-full">
+                    <img src="/photos/event2.jpeg" alt="Event 2" class="w-full h-72 object-cover rounded-md">
+                    <p class="text-center mt-4 text-xl font-semibold">• Event 2: Lorem Ipsum</p>
+                    <p class="text-center text-gray-600 mt-2">• Date: 02.01.2024</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide flex items-center justify-center">
+                <div class="p-6 bg-white text-black rounded-lg shadow-lg w-full h-full">
+                    <img src="/photos/event3.jpeg" alt="Event 3" class="w-full h-72 object-cover rounded-md">
+                    <p class="text-center mt-4 text-xl font-semibold">• Event 3: Lorem Ipsum</p>
+                    <p class="text-center text-gray-600 mt-2">• Date: 03.01.2024</p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide flex items-center justify-center">
+                <div class="p-6 bg-white text-black rounded-lg shadow-lg w-full h-full">
+                    <img src="/photos/event4.jpeg" alt="Event 4" class="w-full h-72 object-cover rounded-md">
+                    <p class="text-center mt-4 text-xl font-semibold">• Event 4: Lorem Ipsum</p>
+                    <p class="text-center text-gray-600 mt-2">• Date: 04.01.2024</p>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination and Navigation Buttons -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+
+<!-- News Section -->
+<section id="news" class="mt-16">
+    <h3 class="ml-8 text-3xl ">Latest News</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-4/5 mx-auto mt-8">
+        <!-- News Item 1 -->
+        <div class="p-6 bg-white text-black rounded-lg shadow-md">
+            <img src="/photos/news1.jpeg" alt="News 1" class="w-full h-48 object-cover rounded-md">
+            <h4 class="mt-4 text-lg font-semibold">• News Title 1</h4>
+            <p class="text-sm text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis purus eget arcu dapibus.</p>
+            <a href="#" class="inline-block mt-4 text-purple-600 hover:underline font-medium">
+                Read More →
+            </a>
+        </div>
+
+        <!-- News Item 2 -->
+        <div class="p-6 bg-white text-black rounded-lg shadow-md">
+            <img src="/photos/news2.jpeg" alt="News 2" class="w-full h-48 object-cover rounded-md">
+            <h4 class="mt-4 text-lg font-semibold">• News Title 2</h4>
+            <p class="text-sm text-gray-600 mt-2">Phasellus bibendum orci a tellus feugiat, in finibus sem consequat. Suspendisse posuere neque.</p>
+            <a href="#" class="inline-block mt-4 text-purple-600 hover:underline font-medium">
+                Read More →
+            </a>
+        </div>
+
+        <!-- News Item 3 -->
+        <div class="p-6 bg-white text-black rounded-lg shadow-md">
+            <img src="/photos/news3.jpeg" alt="News 3" class="w-full h-48 object-cover rounded-md">
+            <h4 class="mt-4 text-lg font-semibold">• News Title 3</h4>
+            <p class="text-sm text-gray-600 mt-2">Nullam cursus risus a vestibulum posuere. Aenean efficitur, urna eget mollis gravida, ligula augue.</p>
+            <a href="#" class="inline-block mt-4 text-purple-600 hover:underline font-medium">
+                Read More →
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="py-8 bg-gray-900 text-gray-400 mt-16 text-center">
+    <div class="space-x-6">
+        <a href="https://www.instagram.com" target="_blank" class="hover:text-purple-400">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="hover:text-purple-400">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com" target="_blank" class="hover:text-purple-400">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://discord.com" target="_blank" class="hover:text-purple-400">
+            <i class="fab fa-discord"></i> Discord
+        </a>
+    </div>
+    <p class="mt-4 text-sm">&copy; 2024 NST-SDC. All rights reserved.</p>
+</footer>
+
+<!-- Swiper.js Script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    // Initialize Swiper
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    // Dynamic Date-Time
+    function updateDateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric', 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit' 
+        };
+        document.getElementById('date-time').textContent = now.toLocaleDateString('en-US', options);
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+</script>
+</body>
+</html>

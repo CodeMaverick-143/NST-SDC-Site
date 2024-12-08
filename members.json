@@ -1,0 +1,303 @@
+[
+    {
+      "team_member": 1,
+      "name": "Arpit Sarang",
+      "role": "DevOps",
+      "linkedin": "https://www.linkedin.com/in/arpit-sarang-ab0b63320/",
+      "github": "https://github.com/CodeMaverick-143",
+      "email": "arpitsarang2020@gmail.com",
+      "instagram": "https://instagram.com/ayush",
+      "image": "/photos/profile1.jpg"
+    },
+    {
+      "team_member": 2,
+      "name": "John Doe",
+      "role": "Frontend Developer",
+      "linkedin": "https://www.linkedin.com/in/johndoe/",
+      "github": "https://github.com/johndoe",
+      "email": "johndoe@example.com",
+      "instagram": "https://instagram.com/john_doe",
+      "image": "/photos/profile2.jpg"
+    },
+    {
+      "team_member": 3,
+      "name": "Jane Smith",
+      "role": "Backend Developer",
+      "linkedin": "https://www.linkedin.com/in/janesmith/",
+      "github": "https://github.com/janesmith",
+      "email": "janesmith@example.com",
+      "instagram": "https://instagram.com/jane_smith",
+      "image": "/photos/profile3.jpg"
+    },
+    {
+      "team_member": 4,
+      "name": "Mike Johnson",
+      "role": "UI/UX Designer",
+      "linkedin": "https://www.linkedin.com/in/mikejohnson/",
+      "github": "https://github.com/mikejohnson",
+      "email": "mikejohnson@example.com",
+      "instagram": "https://instagram.com/mike_johnson",
+      "image": "/photos/profile4.jpg"
+    },
+    {
+      "team_member": 5,
+      "name": "Alice Brown",
+      "role": "Project Manager",
+      "linkedin": "https://www.linkedin.com/in/alicebrown/",
+      "github": "https://github.com/alicebrown",
+      "email": "alicebrown@example.com",
+      "instagram": "https://instagram.com/alice_brown",
+      "image": "/photos/profile5.jpg"
+    },
+    {
+      "team_member": 6,
+      "name": "Ethan Miller",
+      "role": "Full Stack Developer",
+      "linkedin": "https://www.linkedin.com/in/ethanmiller/",
+      "github": "https://github.com/ethanmiller",
+      "email": "ethanmiller@example.com",
+      "instagram": "https://instagram.com/ethan_miller",
+      "image": "/photos/profile6.jpg"
+    },
+    {
+      "team_member": 7,
+      "name": "Sophia Wilson",
+      "role": "Quality Assurance",
+      "linkedin": "https://www.linkedin.com/in/sophiawilson/",
+      "github": "https://github.com/sophiawilson",
+      "email": "sophiawilson@example.com",
+      "instagram": "https://instagram.com/sophia_wilson",
+      "image": "/photos/profile7.jpg"
+    },
+    {
+      "team_member": 8,
+      "name": "Liam Martinez",
+      "role": "System Administrator",
+      "linkedin": "https://www.linkedin.com/in/liammartinez/",
+      "github": "https://github.com/liammartinez",
+      "email": "liammartinez@example.com",
+      "instagram": "https://instagram.com/liam_martinez",
+      "image": "/photos/profile8.jpg"
+    },
+    {
+      "team_member": 9,
+      "name": "Olivia Clark",
+      "role": "Data Analyst",
+      "linkedin": "https://www.linkedin.com/in/oliviaclark/",
+      "github": "https://github.com/oliviaclark",
+      "email": "oliviaclark@example.com",
+      "instagram": "https://instagram.com/olivia_clark",
+      "image": "/photos/profile9.jpg"
+    },
+    {
+      "team_member": 10,
+      "name": "Mason Walker",
+      "role": "Database Engineer",
+      "linkedin": "https://www.linkedin.com/in/masonwalker/",
+      "github": "https://github.com/masonwalker",
+      "email": "masonwalker@example.com",
+      "instagram": "https://instagram.com/mason_walker",
+      "image": "/photos/profile10.jpg"
+    },
+    {
+      "team_member": 11,
+      "name": "Emily Hall",
+      "role": "Mobile App Developer",
+      "linkedin": "https://www.linkedin.com/in/emilyhall/",
+      "github": "https://github.com/emilyhall",
+      "email": "emilyhall@example.com",
+      "instagram": "https://instagram.com/emily_hall",
+      "image": "/photos/profile11.jpg"
+    },
+    {
+      "team_member": 12,
+      "name": "James Young",
+      "role": "Cloud Engineer",
+      "linkedin": "https://www.linkedin.com/in/jamesyoung/",
+      "github": "https://github.com/jamesyoung",
+      "email": "jamesyoung@example.com",
+      "instagram": "https://instagram.com/james_young",
+      "image": "/photos/profile12.jpg"
+    },
+    {
+      "team_member": 13,
+      "name": "Arpit Sarang",
+      "role": "DevOps",
+      "linkedin": "https://www.linkedin.com/in/arpit-sarang-ab0b63320/",
+      "github": "https://github.com/CodeMaverick-143",
+      "email": "arpitsarang2020@gmail.com",
+      "instagram": "https://instagram.com/ayush",
+      "image": "/photos/profile13.jpg"
+    },
+    {
+      "team_member": 14,
+      "name": "Charlotte King",
+      "role": "Security Engineer",
+      "linkedin": "https://www.linkedin.com/in/charlotteking/",
+      "github": "https://github.com/charlotteking",
+      "email": "charlotteking@example.com",
+      "instagram": "https://instagram.com/charlotte_king",
+      "image": "/photos/profile14.jpg"
+    },
+    {
+      "team_member": 15,
+      "name": "Daniel Lee",
+      "role": "DevOps Engineer",
+      "linkedin": "https://www.linkedin.com/in/daniellee/",
+      "github": "https://github.com/daniellee",
+      "email": "daniellee@example.com",
+      "instagram": "https://instagram.com/daniel_lee",
+      "image": "/photos/profile15.jpg"
+    },
+    {
+      "team_member": 16,
+      "name": "Isabella Gonzalez",
+      "role": "Product Manager",
+      "linkedin": "https://www.linkedin.com/in/isabellagonzalez/",
+      "github": "https://github.com/isabellagonzalez",
+      "email": "isabellagonzalez@example.com",
+      "instagram": "https://instagram.com/isabella_gonzalez",
+      "image": "/photos/profile16.jpg"
+    },
+    {
+      "team_member": 17,
+      "name": "Benjamin Martinez",
+      "role": "Business Analyst",
+      "linkedin": "https://www.linkedin.com/in/benjaminmartinez/",
+      "github": "https://github.com/benjaminmartinez",
+      "email": "benjaminmartinez@example.com",
+      "instagram": "https://instagram.com/benjamin_martinez",
+      "image": "/photos/profile17.jpg"
+    },
+    {
+      "team_member": 18,
+      "name": "Madeline Scott",
+      "role": "Scrum Master",
+      "linkedin": "https://www.linkedin.com/in/madelinescott/",
+      "github": "https://github.com/madelinescott",
+      "email": "madelinescott@example.com",
+      "instagram": "https://instagram.com/madeline_scott",
+      "image": "/photos/profile18.jpg"
+    },
+    {
+      "team_member": 19,
+      "name": "Henry Adams",
+      "role": "Network Engineer",
+      "linkedin": "https://www.linkedin.com/in/henryadams/",
+      "github": "https://github.com/henryadams",
+      "email": "henryadams@example.com",
+      "instagram": "https://instagram.com/henry_adams",
+      "image": "/photos/profile19.jpg"
+    },
+    {
+      "team_member": 20,
+      "name": "Ava Wright",
+      "role": "Research Scientist",
+      "linkedin": "https://www.linkedin.com/in/avawright/",
+      "github": "https://github.com/avawright",
+      "email": "avawright@example.com",
+      "instagram": "https://instagram.com/ava_wright",
+      "image": "/photos/profile20.jpg"
+    },
+    {
+      "team_member": 21,
+      "name": "William Harris",
+      "role": "Solutions Architect",
+      "linkedin": "https://www.linkedin.com/in/williamharris/",
+      "github": "https://github.com/williamharris",
+      "email": "williamharris@example.com",
+      "instagram": "https://instagram.com/william_harris",
+      "image": "/photos/profile21.jpg"
+    },
+    {
+      "team_member": 22,
+      "name": "Mia Nelson",
+      "role": "Data Scientist",
+      "linkedin": "https://www.linkedin.com/in/mianelson/",
+      "github": "https://github.com/mianelson",
+      "email": "mianelson@example.com",
+      "instagram": "https://instagram.com/mia_nelson",
+      "image": "/photos/profile22.jpg"
+    },
+    {
+      "team_member": 23,
+      "name": "Lucas Carter",
+      "role": "IT Consultant",
+      "linkedin": "https://www.linkedin.com/in/lucascarter/",
+      "github": "https://github.com/lucascarter",
+      "email": "lucascarter@example.com",
+      "instagram": "https://instagram.com/lucas_carter",
+      "image": "/photos/profile23.jpg"
+    },
+    {
+      "team_member": 24,
+      "name": "Zoe Perez",
+      "role": "Frontend Engineer",
+      "linkedin": "https://www.linkedin.com/in/zoeperez/",
+      "github": "https://github.com/zoeperez",
+      "email": "zoeperez@example.com",
+      "instagram": "https://instagram.com/zoe_perez",
+      "image": "/photos/profile24.jpg"
+    },
+    {
+      "team_member": 25,
+      "name": "Lily Thompson",
+      "role": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/lilythompson/",
+      "github": "https://github.com/lilythompson",
+      "email": "lilythompson@example.com",
+      "instagram": "https://instagram.com/lily_thompson",
+      "image": "/photos/profile25.jpg"
+    },
+    {
+      "team_member": 26,
+      "name": "Oliver Moore",
+      "role": "Software Engineer",
+      "linkedin": "https://www.linkedin.com/in/olivermoore/",
+      "github": "https://github.com/olivermoore",
+      "email": "olivermoore@example.com",
+      "instagram": "https://instagram.com/oliver_moore",
+      "image": "/photos/profile26.jpg"
+    },
+    {
+      "team_member": 27,
+      "name": "Sophia Taylor",
+      "role": "Content Strategist",
+      "linkedin": "https://www.linkedin.com/in/sophiataylor/",
+      "github": "https://github.com/sophiataylor",
+      "email": "sophiataylor@example.com",
+      "instagram": "https://instagram.com/sophia_taylor",
+      "image": "/photos/profile27.jpg"
+    },
+    {
+      "team_member": 28,
+      "name": "Jack Harris",
+      "role": "Business Development",
+      "linkedin": "https://www.linkedin.com/in/jackharris/",
+      "github": "https://github.com/jackharris",
+      "email": "jackharris@example.com",
+      "instagram": "https://instagram.com/jack_harris",
+      "image": "/photos/profile28.jpg"
+    },
+    {
+      "team_member": 29,
+      "name": "Ella Robinson",
+      "role": "Technical Writer",
+      "linkedin": "https://www.linkedin.com/in/ellarobinson/",
+      "github": "https://github.com/ellarobinson",
+      "email": "ellarobinson@example.com",
+      "instagram": "https://instagram.com/ella_robinson",
+      "image": "/photos/profile29.jpg"
+    },
+    {
+      "team_member": 30,
+      "name": "Aiden Clark",
+      "role": "Marketing Specialist",
+      "linkedin": "https://www.linkedin.com/in/aidenclark/",
+      "github": "https://github.com/aidenclark",
+      "email": "aidenclark@example.com",
+      "instagram": "https://instagram.com/aiden_clark",
+      "image": "/photos/profile30.jpg"
+    }
+  ]
+  

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - NST-SDC</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom Styles */
+        .swiper-slide img,
+        .swiper-slide video {
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .swiper-slide img:hover,
+        .swiper-slide video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: #9333ea;
+        }
+
+        .swiper-pagination-bullet {
+            background-color: #9333ea;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-violet-700 to-indigo-500 text-white font-sans">
+
+<!-- Header -->
+<header class="fixed top-0 w-full bg-gray-900 bg-opacity-90 shadow-md z-50">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div class="text-3xl font-bold tracking-wider">NST-SDC</div>
+        <div class="hidden md:flex space-x-8">
+            <a href="/home.html" class="hover:text-purple-400 transition">Home</a>
+            <a href="/about.html" class="hover:text-purple-400 transition">About</a>
+            <a href="/events.html" class="hover:text-purple-400 transition">Events</a>
+            <a href="/gallery.html" class="text-purple-400 font-semibold">Gallery</a>
+            <a href="/contact.html" class="hover:text-purple-400 transition">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Spacer -->
+<div class="h-20"></div>
+
+<!-- Image Carousel -->
+<section id="gallery-carousel" class="my-16 px-6">
+    <h2 class="text-4xl text-center font-bold mb-12" data-aos="fade-down">Image</h2>
+    <div class="swiper-container w-11/12 lg:w-4/5 mx-auto" data-aos="zoom-in">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <img src="/photos/gallery1.jpeg" alt="Gallery Image 1" class="w-full h-96 object-cover">
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <img src="/photos/gallery2.jpeg" alt="Gallery Image 2" class="w-full h-96 object-cover">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="/photos/gallery3.jpeg" alt="Gallery Image 3" class="w-full h-96 object-cover">
+            </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- Video Carousel -->
+<section id="video-carousel" class="my-16 px-6">
+    <h2 class="text-4xl text-center font-bold mb-12" data-aos="fade-down">Video</h2>
+    <div class="swiper-container w-11/12 lg:w-4/5 mx-auto" data-aos="zoom-in">
+        <div class="swiper-wrapper">
+            <!-- Video 1 -->
+            <div class="swiper-slide">
+                <video controls class="w-full h-96 object-cover">
+                    <source src="/videos/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Video 2 -->
+            <div class="swiper-slide">
+                <video controls class="w-full h-96 object-cover">
+                    <source src="/videos/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Video 3 -->
+            <div class="swiper-slide">
+                <video controls class="w-full h-96 object-cover">
+                    <source src="/videos/video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 bg-gray-900 text-gray-400 mt-16 text-center">
+    <p class="text-sm">&copy; 2024 NST-SDC. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+
+    // Swiper for Image Carousel
+    var swiperImage = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 1,
+        spaceBetween: 10,
+    });
+
+    // Swiper for Video Carousel
+    var swiperVideo = new Swiper('#video-carousel .swiper-container', {
+        loop: false, // No autoplay for videos
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 1,
+        spaceBetween: 10,
+    });
+</script>
+</body>
+</html>
