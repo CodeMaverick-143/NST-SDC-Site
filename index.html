@@ -46,7 +46,6 @@
     }
   </style>
   <script>
-    // Limit Date of Birth to today or earlier
     function setMinDOB() {
       const today = new Date();
       document.getElementById("DOB").setAttribute("max", today.toISOString().split('T')[0]);
